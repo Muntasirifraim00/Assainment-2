@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+}
+
+.top-side-text h1{
+    height: 195px;
+    width: 475px;
+/* left: 156px;
+top: 214px; */
+font-family: Poppins;
+font-size: 64px;
+line-height: 80px;
+color: #ffffff;
+margin: 140px 0px 86px 150px;
+}
+
+
+.anchor-button{
+    /* height: 34px;
+    width: 50px; */
+    text-decoration: none;
+    /* background: linear-gradient(45deg, #f8e21c, rgb(15, 141, 114)); */
+    background-color: crimson;
+    padding: 14px 28px 17px 23px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  margin-left: 155px;
+  margin-top: 40px;
+
+}
+
+.top-text-and-image{
+    width: 1349px;
+    display: flex;
+   background-color: rgb(0, 26, 110);
+}
+.top-banner-image img{
+    width: 556px;
+    height: 438px;
+    margin: 65px 0px 86px 150px;
+
+}
+.all-player img{
+        width: 300px;
+        height: 256px;
+}
+
+
+.all-player h1 h4{
+    width: 300px;
+    height: 154px;
+}
+
+.all-player{
+
+    display: grid;
+    grid-gap:30px;
+    grid-row-gap: 25px;
+    grid-template-columns: repeat(3,0.5fr);
+    /* justify-content: space-around; */
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+
+
+}
+
+.player-1{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.all-player h1{
+    font-family: Poppins;
+    font-size: 27px;
+}
+
+.logo-sizing img{
+    width: 530px;
+    height: 133px;
+    margin: 140px 0 0 390px;
+}
+
+.icons-positioning{
+    margin-left: 595px;
+}
+
+.icons-positioning i{
+    /* display: flex; */
+    height: 60px;
+    width: 49px;
+    size: 0px;
+ 
+}
+.Copyright-position{
+    font-family: Poppins;
+    text-align: center;
+}
+
+
+/*-------------MEDIA-QUERIES---------------*/
+
+
+/*-------------ONLY MOBILE---------------*/
+@media only screen and (max-width:688px) {
+    
+    .top-text-and-image{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+    
+.top-side-text h1{
+    /* height: 195px; */
+    width: 269px;
+/* left: 156px;
+top: 214px; */
+font-family: Poppins;
+font-size: 37px;
+line-height: 60px;
+color: #ffffff;
+margin: 50px 0px 0px 0px;
+
+}
+
+.anchor-button{
+    padding: 14px 28px 17px 23px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  margin-left: 12px;
+
+}
+
+
+
+.top-banner-image img{
+    width: 280px;
+    height: 255px;
+    margin: 50px 0px 86px 18px;
+}
+
+
+.all-player{
+
+  
+    grid-gap:30px;
+    grid-row-gap: 25px;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
+
+
+}
+
+
+
+.player-1{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
