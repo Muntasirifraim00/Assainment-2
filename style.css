@@ -139,9 +139,9 @@ margin: 50px 0px 0px 0px;
 
 
 .top-banner-image img{
-    width: 280px;
-    height: 255px;
-    margin: 50px 0px 86px 18px;
+    width: 360px;
+    height: 235px;
+    margin: 52px 0px 0px px;
 }
 
 
@@ -151,14 +151,11 @@ margin: 50px 0px 0px 0px;
     grid-gap:30px;
     grid-row-gap: 25px;
     grid-template-columns: repeat(1,1fr);
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 34px;
 
 
 }
-
-
 
 .player-1{
     width: 300px;
@@ -167,6 +164,29 @@ margin: 50px 0px 0px 0px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     margin: 0px 0px 0px 0px;
+}
+
+
+.logo-sizing img{
+    width: 230px;
+    height: 85px;
+    margin: 10px 0 0 85px;
+}
+
+.icons-positioning{
+    margin-left: 100px;
+}
+
+.icons-positioning i{
+    /* display: flex; */
+    height: 60px;
+    width: 49px;
+    size: 0px;
+ 
+}
+.Copyright-position{
+   height: 150px;
+   font-size: 12px;
 }
 
 
