@@ -127,7 +127,6 @@ color: #ffffff;
 margin: 50px 0px 0px 0px;
 
 }
-
 .anchor-button{
     padding: 14px 28px 17px 23px;
     border-radius: 5px;
@@ -135,31 +134,23 @@ margin: 50px 0px 0px 0px;
   margin-left: 12px;
 
 }
-
-
-
 .top-banner-image img{
     width: 360px;
     height: 235px;
-    margin: 52px 0px 0px px;
+    margin: 52px 0px 0px 23px;
 }
 
-
 .all-player{
-
-  
     grid-gap:30px;
     grid-row-gap: 25px;
     grid-template-columns: repeat(1,1fr);
-    margin-left: 40px;
+    margin-left: 33px;
     margin-top: 34px;
-
-
 }
 
 .player-1{
     width: 300px;
-    height: 400px;
+    height: 410px;
     padding: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -170,11 +161,11 @@ margin: 50px 0px 0px 0px;
 .logo-sizing img{
     width: 230px;
     height: 85px;
-    margin: 10px 0 0 85px;
+    margin: 10px 0 0 70px;
 }
 
 .icons-positioning{
-    margin-left: 100px;
+    margin-left: 95px;
 }
 
 .icons-positioning i{
@@ -187,17 +178,8 @@ margin: 50px 0px 0px 0px;
 .Copyright-position{
    height: 150px;
    font-size: 12px;
+   margin-left: 7px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 }
