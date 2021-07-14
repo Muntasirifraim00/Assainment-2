@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    
 }
 
 .top-side-text h1{
@@ -109,6 +110,13 @@ margin: 140px 0px 86px 150px;
 /*-------------ONLY MOBILE---------------*/
 @media only screen and (max-width:688px) {
     
+    body{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+
     .top-text-and-image{
        display: flex;
        flex-direction: column;
@@ -135,7 +143,7 @@ margin: 50px 0px 0px 0px;
 
 }
 .top-banner-image img{
-    width: 360px;
+    width: 300px;
     height: 235px;
     margin: 52px 0px 0px 23px;
 }
